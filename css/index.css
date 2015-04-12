@@ -9,6 +9,11 @@ h1, h2, h3, h4, h5, h6 {
   clear: both;
 }
 
+h4 span {
+  font-weight: normal;
+  font-family: "Open Sans", sans-serif;
+}
+
 ul {
   list-style-type: none;
   padding: 0;
@@ -52,6 +57,7 @@ ul.papers em {
 }
 p {
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 h2 {
@@ -66,6 +72,12 @@ h6 {
 ul.inline li {
   display: inline;
   padding: 0 0 0 1em;
+}
+
+img.blackboard {
+  margin: 3em 0;
+  width: 35em;
+  max-width: 100%;
 }
 
 @media only screen and (max-width:37.5em) { 
